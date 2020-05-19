@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdn.staticfile.org/angular.js/1.4.6/angular.min.js"></script>
+    <script src="script.js"></script>
+
+</head>
+<body>
+
+
+
+<div ng-app=""  ng-init="names=[
+{name:'Jani',country:'Norway'},
+{name:'Hege',country:'Sweden'},
+{name:'Kai',country:'Denmark'}]">
+    <p>循环数组</p>
+    <ul>
+        <li ng-repeat="x in names">{{x.name}},{{x.country}}</li>
+    </ul>
+
+</div>
+
+<script>
+
+</script>
+
+</body>
+</html>
